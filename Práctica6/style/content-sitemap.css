@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Sitemap */
+
+.content {
+	width: -webkit-calc(100% - 300px);
+	width: -moz-calc(100% - 300px);
+	width: -o-calc(100% - 300px);
+	width: calc(100% - 300px);
+	padding-bottom: 20px
+}
+
+/* Título de la página */
+#sitemap_title { 
+	text-align: center;
+	padding: 38px 0;
+	color: white;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#sitemap_title h2 {
+	margin-top: 40px;
+}
+
+/* Niveles del sitemap del sitio web */
+#sitemap_levels {
+	width: 60%;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-family: monaco,Consolas,"Lucida Console",monospace
+}
+
+#sitemap_levels li {
+	border-bottom: 1px dashed black;
+}
+
+#sitemap_levels li a {
+	display: block;
+	padding: 20px 0;
+	font-size: 24px;
+	color: white;
+	text-shadow: 1px  1px 2px black, 1px -1px 2px black, -1px  1px 2px black, -1px -1px 2px black;
+}
+
+#sitemap_levels li:hover {
+	cursor: pointer;
+	background: steelblue;
+}
+
+#sitemap_levels li:hover a {
+	color: lightsteelblue;
+}
+
+#last {
+	border-bottom: 0px !important;
+	margin-bottom: 70px;
+}

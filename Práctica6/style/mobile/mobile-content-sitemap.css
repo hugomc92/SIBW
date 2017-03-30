@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Sitemap */
+
+/* Hacer la página responsive*/
+@media screen and (max-width: 836px) {
+	.content {
+		width: 100%;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -40px;
+		margin-bottom: -40px;
+	}
+}

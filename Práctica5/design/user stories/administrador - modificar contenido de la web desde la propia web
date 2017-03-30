@@ -1,0 +1,20 @@
+﻿ADMINISTRADOR - MODIFICAR CONTENIDO DE LA WEB DESDE LA PROPIA WEB
+
+El administrador tendra que estar identificado.
+
+Encima de los imágenes aparecerá un icono de edición, el administrador hará click y aparecerá
+un cuadro de diálogo, con la imagen actual y otro botón para cambiarla.
+
+Al hacer click sobre este último botón, se cargará desde el dispositivo propio mediante la ventana
+que abrirá automaticamente el sistema de selección de archivos.
+
+Así mismo, aparacerá dicho icono sobre los textos y al pusar sobre ellos se abrirá un cuadro
+de diálogo, con el texto a modificar.
+
+El administrador realizará los cambios pertinentes, y pulsará en el botón de guardar cambios
+de dichos cuadros de diálogo para guardar los cambios.
+
+En este punto, el sistema actualizará la imagen o el texto editado e informará al administrador 
+si el proceso ha tenido o no éxito.
+
+En caso de haberse producido un fallo, se volverá atrás y podrá intentarlo de nuevo.

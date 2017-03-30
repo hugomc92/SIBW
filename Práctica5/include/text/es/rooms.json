@@ -1,0 +1,41 @@
+{
+    "roomstitle" : "HABITACIONES",
+    
+    "roomdescription1" : "Nuestras habitaciones con vistas a Plaza Nueva y a la Torre de la Vela, que pertenece al recinto de la Alhambra,le permitirán disfrutar de una perspectiva distinta de la ciudad. Disfrute de esta experiencia por un pequeño suplemento.",
+    "roomsdescription2" : "Asimismo el hotel dispone de habitaciones interiores, recomendables para personas que desean descansar con la máxima tranquilidad.",
+    "roomsdescription3" : "Las habitaciones también disponen de un cuarto de baño completo, aire acondicionado, TV, teléfono directo y una caja de seguridad gratuita para su mayor tranquilidad.",
+    
+    "roomservicestext" : "En la habitación contara con conexión Wi-Fi a internet gratuita, Aire acondicionado, TV vía satélite, servicio de cunas (bajo petición), caja de seguridad y teléfono.",
+    
+    "room1" : "HABITACIÓN DOBLE O TWIN",
+    "roomtext1" : "En nuestras habitaciones standard disfrutará de todo el equipamiento y comodidades que su estancia en Granada merece.",    
+    "price" : "Desde sólo ",
+    
+    "room2" : "DOBLE SUPERIOR",
+    "roomtext2" : "Disfrute de una magnifica vista de Plaza Nueva y el centro de Granada desde nuestras habitaciones superiores.",        
+    
+    "room3" : "HABITACIÓN TRIPLE",
+    "roomtext3" : "En nuestras habitaciones triples podrá disfrutar de sus vacaciones en familia o con amigos en el centro de Granada.",        
+    
+    "servicestitle" : "SERVICIOS DE LAS HABITACIONES",
+    "service1" : "Caja de seguridad",
+    "service2" : "Amenities en el baño",
+    "service3" : "Conexión Wi-Fi a internet",   
+    "service4" : "Aire acondicionado",
+    "service5" : "TV vía satélite",
+    "service6" : "Cunas (bajo petición)",
+    "service7" : "Secador de pelo",
+    "service8" : "Teléfono",
+    
+    "alt1" : "Habitación doble",
+    "alt2" : "Habitación doble superior",
+    "alt3" : "Habitación triple",
+    "alt4" : "Icono caja de seguridad",
+    "alt5" : "Icono amenities",
+    "alt6" : "Icono Wifi",
+    "alt7" : "Icono aire acondicionado",
+    "alt8" : "Icono televisión por satelite",
+    "alt9" : "Icono servicio de cunas",
+    "alt10" : "Icono Secador",
+    "alt11" : "Icono Teléfono"
+}

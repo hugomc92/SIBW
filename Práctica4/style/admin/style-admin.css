@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Hoja de estilos principal para el panel de administración */
+
+#admin_hamburguer {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 10px 20px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	background: steelblue;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#admin_hamburguer::before {
+	content: "\2261";
+	font-size: 2em;
+}
+
+#admin_hamburguer:hover {
+	cursor: pointer;
+	color: black;
+}
+
+#admin_hamburguer.selected {
+	color: black;
+	background: lightsteelblue;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+/* Estilos del sidebar del menú*/
+#admin_sidebar {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: fixed;
+	z-index: 100;
+	background: #454545;
+	top: 95px;
+	bottom: 0;
+	left: 0;
+	min-width: 70px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+	padding-top: 30px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#admin_sidebar.selected {
+	min-width: 200px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#admin_sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#admin_sidebar ul li {
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+admin_option {
+	padding: 10px 0 10px 0;
+	margin-bottom: 5px;
+}
+
+.admin_option img {
+	margin-left: 0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.admin_option span {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.admin_option:hover, .active {
+	cursor: pointer;
+	background: lightsteelblue;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#admin_sidebar.selected .admin_option img {
+	margin-left: -90px;
+}
+
+#admin_sidebar.selected .admin_option span {
+	visibility: visible;
+	opacity: 1;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 9px;
+	color: white;
+}
+
+#admin_sidebar.selected .admin_option:hover span, #admin_sidebar.selected .active span {
+	color: black;
+}
+
+@media screen and (max-width: 836px) {
+	#admin_sidebar {
+		right: 0;
+		visibility: hidden;
+		opacity: 0;
+		max-height: 0;
+	}
+	
+	#admin_sidebar.selected {
+		visibility: visible;
+		opacity: 1;
+		max-height: -webkit-fit-content;
+		max-height: -moz-fit-content;
+		max-height: -o-fit-content;
+		max-height: fit-content;
+	}
+}

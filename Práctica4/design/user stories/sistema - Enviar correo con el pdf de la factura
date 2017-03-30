@@ -1,0 +1,5 @@
+SISTEMA - ENVIAR CORRE CON EL PDF DE LA FACTURA
+
+Una vez pagado el alojamiento, durante el chek-out, el administrador (o algún trabajador del hotel) marcará la 
+reserva como pagada y automáticamente el sistema enviará una factura con los detalles del alojamiento efectuado 
+en formato pdf a través del correo electrónico.

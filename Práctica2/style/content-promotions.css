@@ -1,0 +1,431 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Promotions */
+
+/* Contenedor de las promociones principales */
+#cont_principals {
+	position: relative;
+	width: 300%;
+	height: auto;
+	overflow: hidden;
+	left: 0;
+}
+
+#cont_principals.chng {
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+/* Promoción principal */
+.principal {
+	width: 33.3333%;
+	height: 400px;
+	text-align: center;
+	font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+	color: black;
+	float: left;
+}
+
+.principal:hover .backImage, .principal:hover .textPromotion {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+/* Div para el fondo de la imagen, para evitar distorsiones en la imagen */
+.backImage {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#alh_back {
+	background: url("../images/granada/alhambra3.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#sierra_back {
+	background: url("../images/granada/sierra-noche.jpg") no-repeat bottom;
+	background-size: cover;
+}
+
+#antic_back {
+	background: url("../images/hotel/hotel-fachada.jpg") no-repeat bottom;
+	background-size: cover;
+}
+
+/* Texto más llamativo de la promoción principal, que también estará más abajo en la página */
+.textPromotion {
+	width: 30%;
+	height: 100%;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -400px;
+	background: rgba(250, 250, 250, 0.7);
+	box-shadow: -4px 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.textPromotion h1, .textPromotion h2, .textPromotion p {
+	padding: 0 10px;
+}
+
+.progress_bar {
+	position: relative;
+	width: 0;
+	top: -5px;
+	height: 5px;
+	background: black;
+	opacity: 0.5;
+}
+
+/* Div para visualizar en el switch el slide de entre todos que se ve */
+#on {
+	width: 10px;
+	height: 10px;
+	margin-top: 20px;
+	margin-left: 22px;
+	border-radius: 50%;
+	background: steelblue;
+	position: relative;
+	left: 0;
+}
+
+#on.chng {
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+/* Switch para el slide de promociones */
+#switch {
+	width: 120px;
+	height: 20px;
+	z-index: 99;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+#switch ul {
+	margin-top: -10px;
+	list-style: none;
+	padding: 0 22px;
+	overflow: hidden;
+}
+
+#switch ul li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #eeeeee;
+	float: left;
+	margin-right: 15px;
+}
+
+#switch ul li:hover {
+	background: steelblue;
+	cursor: pointer;
+}
+
+/* Nombre de la página */
+.content > h1 {
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#promotions {
+	width: 80%;
+	margin: 50px 10%;
+	text-align: center;
+}
+
+/* Cada una de las pestañas de las promociones */
+#tabs {
+	width: 100%;
+	padding: 0;
+	margin: 5px auto;
+	position: relative;
+	z-index: 10;
+	border-bottom: 3px solid #ccc;
+}
+
+#tabs:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Ocultar los radio buttons */
+#tabs input[type=radio] {
+	display:none;
+}
+
+/* Etiqueta para los radio buttons */
+#tabs label {
+	display: block;
+	float: left;
+	width: 20%;
+	color: #eeeeee;
+	font-size: 20px;
+	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	line-height: 2;
+	cursor: pointer;
+	box-shadow: inset 0 3px #ccc;
+	border-bottom: 3px solid #ccc;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+/* Cambiar el color y bordes de las pestañas cuando el ratón esté encima */
+#tabs label:hover {
+	color: #3498db;
+	box-shadow: inset 0 3px #3498db;
+	border-bottom: 3px solid #3498db;
+}
+
+/* Contenido de las pestañas, inicialmente oculto, sólo mostrado el de la pestaña marcada */
+.tab-content {
+	display: none;
+	width: 100%;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color:#eeeeee;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+.tab-content img {
+	display: block;
+	min-width: 770px;
+	margin: 0 auto;
+}
+
+/* Animación de todos los elementos del contenido */
+.tab-content * {
+	-webkit-animation: scale 1s ease-in-out;
+	-moz-animation: scale 1s ease-in-out;
+	-o-animation: scale 1s ease-in-out;
+	animation: scale 1s ease-in-out;
+}
+
+/* Transformaciones según el momento en que esté la animación */
+@keyframes scale {
+	0% {
+		-webkit-transform: scale(0.7);
+		-moz-transform: scale(0.7);
+		-o-transform: scale(0.7);
+		transform: scale(0.7);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+/* Cambiar aspecto de la pestaña marcada */
+#tabs [id^="tab"]:checked + label {
+	background: #eeeeee;
+	box-shadow: inset 0 3px #3498db;
+	border-bottom: 3px solid #3498db;
+	color: #3498db;
+}
+
+/* Mostrar el contenido de la pestaña marcada */
+#tab1:checked ~ #tab-content1,
+#tab2:checked ~ #tab-content2,
+#tab3:checked ~ #tab-content3,
+#tab4:checked ~ #tab-content4,
+#tab5:checked ~ #tab-content5  {
+	display: block;
+}
+
+/* Botón reservar */
+.book {
+	float: right;
+	margin-right: 10%;
+	padding: 10px;
+	color: white;
+	background: lightsteelblue;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Copperplate,"Copperplate Gothic Light";
+	-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+	-o-border-radius: 12px;
+    border-radius: 12px;
+	-webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.book::after {
+	display: inline-block;
+	content: '\232a';
+	vertical-align: middle;
+	font-weight: bold;
+	margin-top: -3px;
+    margin-left: 20px;
+	margin-right: 5px;
+	font-family: Copperplate,"Copperplate Gothic Light";
+}
+
+.book:hover {
+	background: steelblue;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos para la promoción de la Alhambra y Sierra Nevada */
+.prom {
+	margin: 20px auto;
+}
+
+.include, .more_info {
+	display: inline-block;
+	margin: 0 10px;
+	text-align: left;
+	width: 370px;
+}
+
+.include p {
+	font-weight: bold;
+	margin: 0;
+}
+
+.include ul {
+	margin: 0;
+}
+
+.include ul li {
+	padding: 5px 0;
+}
+
+.include ul li ul {
+	list-style: outside none;
+	padding: 0;
+}
+
+.include ul li ul li::before {
+	content: '\00a0-\00a0\00a0';
+}
+
+.more_info p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.more_info ul {
+	list-style: outside none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.prom_info {
+	width: 765px;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+/* Hacer la página responsive */
+/* En este tamaño simplemente se cambia el tamaño de ciertos elementos */
+@media screen and (max-width: 1019px) {
+	.tab-content img {
+		min-width: 90%;
+	}
+	
+	.include, .more_info {
+		width: 40%;
+	}
+	
+	.prom_info {
+		width: 83%;
+	}
+}
+
+/* En este tamaño, además del tamaño, se establecen en bloques en las pestañas para que se
+vean una encima de otra, además de poner el texto de la promoción principal debajo, para
+mejorar la lectura al no verse tan pequeño */
+@media screen and (max-width: 836px) {
+	#cont_principals {
+		height: fit-content;
+	}
+	.textPromotion {
+		margin-top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 100;
+	}
+	
+	.textPromotion h1, .textPromotion h2, .textPromotion p {
+		margin: 10px 10%;
+	}
+	
+	.content > h1 {
+		margin-top: 10px;
+	}
+	
+	#switch {
+		margin-bottom: 40px;
+	}
+	
+	#tabs label {
+		width: 100%;
+		box-shadow: inset 0 0px grey;
+		border-bottom: 2px dotted grey;
+	}
+	
+	#tab1:checked ~ #tab-content1,
+	#tab2:checked ~ #tab-content2,
+	#tab3:checked ~ #tab-content3,
+	#tab4:checked ~ #tab-content4,
+	#tab5:checked ~ #tab-content5  {
+		border-bottom: 0px;
+	}
+	
+	.tab-content img {
+		min-width: 100%;
+	}
+	
+	.include, .more_info {
+		width: 95%;
+		display: block;
+	}
+	
+	.prom_info {
+		margin: 0 10px;
+		width: 95%;
+	}
+}
+
+/* Eliminar el > de los botones de reserva, para que 
+no se baje a la siguiente línea */
+@media screen and (max-width: 250px) {
+	.book::after {
+		display: none;
+	}
+}

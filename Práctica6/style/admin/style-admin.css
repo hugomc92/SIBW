@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Hoja de estilos principal para el panel de administración */
+
+#admin_hamburguer {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 10px 20px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	background: steelblue;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#admin_hamburguer::before {
+	content: "\2261";
+	font-size: 2em;
+}
+
+#admin_hamburguer:hover {
+	cursor: pointer;
+	color: black;
+}
+
+#admin_hamburguer.selected {
+	color: black;
+	background: lightsteelblue;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+/* Estilos del sidebar del menú*/
+#admin_sidebar {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: fixed;
+	z-index: 100;
+	background: #454545;
+	top: 95px;
+	bottom: 0;
+	left: 0;
+	min-width: 70px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+	padding-top: 30px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#admin_sidebar.selected {
+	min-width: 200px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#admin_sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#admin_sidebar ul li {
+	margin-bottom: 10px;
+}
+
+#admin_sidebar ul li a {
+	padding: 15px;
+	display: block;
+}
+
+admin_option {
+	padding: 10px 0 10px 0;
+	margin-bottom: 5px;
+}
+
+.admin_option img {
+	margin-left: 0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.admin_option span {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+.admin_option:hover, .active {
+	cursor: pointer;
+	background: lightsteelblue;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#admin_sidebar.selected .admin_option img {
+	margin-left: -90px;
+}
+
+#admin_sidebar.selected .admin_option span {
+	visibility: visible;
+	opacity: 1;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 9px;
+	color: white;
+}
+
+#admin_sidebar.selected .admin_option:hover span, #admin_sidebar.selected .active span {
+	color: black;
+}
+
+#overlay-find, #overlay-booking {
+	margin-top: -200px;
+	text-align: center;
+    position: fixed;
+	z-index: 10000;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.6);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#overlay-find::before, #overlay-booking::before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+}
+
+/* Sólo cuando se referencia en la URL se hace visible */
+#overlay-find:target, #overlay-booking:target {
+	margin-top: 0;
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#overlay-find > a, #overlay-booking > a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#overlay-find > a:hover, #overlay-booking > a:hover {
+	cursor: default;
+}
+
+#popup-find, #popup-booking {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10000;
+	max-width: 90%;
+	box-shadow: 0 0 50px rgba(0,0,0,0.7);
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+	-o-border-radius: 3px;
+    border-radius: 3px;
+	background: #eeeeee;
+	text-align: right;
+}
+
+#title-find, #title-booking {
+	text-align: center;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	color: steelblue;
+	margin: 20px;
+	cursor: default;
+}
+
+#find_form {
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	text-align: center !important;
+	margin: 20px;
+	color: black;
+}
+
+#find_form img {
+	opacity: 0.6;
+}
+
+#find_form .field {
+	display: inline-block;
+	border: 0;
+	border-bottom: 2px solid steelblue;
+	margin-right: 10px;
+	margin-left: 5px;
+	height: 40px;
+	position: relative;
+	top: -20px;
+	background: rgba(0, 0, 0, 0);
+	font-size: 1em;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#find {
+	display: inline-block;
+	width: 300px;
+}
+
+input:focus {
+	outline: none;
+}
+
+#close {
+	display: block;
+	background: steelblue;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	position: relative;
+	left: 97%;
+	text-align: center;
+	top: -85px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#close:hover {
+	color: black;
+	background: lightsteelblue;
+}
+
+#live_search ul {
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: 70px;
+	margin-top: -30px;
+	text-align: left;
+	position: fixed;
+	max-height: auto;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	border: 1px solid rgba(150, 150, 150, 1);;
+}
+
+#live_search ul li {
+	border-bottom: 1px solid rgba(150, 150, 150, 1);
+}
+
+#live_search ul li:last-child {
+	border-bottom: 0;
+}
+
+#live_search ul li a {
+	display: block;
+	background: #eeeeee;
+	color: black;
+	padding: 10px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#live_search ul li a:hover {
+	background: steelblue;
+	color: white;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#popup-booking {
+	min-width: 300px;
+	width: 40%
+}
+
+#popup-booking #close {
+	left: 98%;
+}
+
+#booking_info ul {
+	list-style: none;
+	text-align: left;
+	margin: 0;
+    padding: 0;
+	margin-top: -20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#booking_info ul li {
+	padding: 10px;
+}

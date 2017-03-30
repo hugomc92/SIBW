@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Index */
+
+/* Hacer la página responsive */
+@media screen and (max-width: 836px) {
+	#img_principal h2 {
+		font-size: 3vmax;
+	}
+
+	#img_principal h2::before {
+		font-size: 2.5vmax;
+	}
+
+	#img_principal h2::after {
+		font-size: 2.5vmax;
+	}
+	
+	#main_content {
+		width: 100%;
+	}
+	
+	#images {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	#img1, #img2, #img3, #img4 {
+		background-attachment: local;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -520px;
+		margin-bottom: -520px;
+	}	
+}

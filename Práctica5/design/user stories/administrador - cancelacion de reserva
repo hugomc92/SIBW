@@ -1,0 +1,25 @@
+﻿ADMINISTRADOR - CANCELACIÓN DE RESERVA
+
+El administrador recibe una llamada de alguien o bien por correo electrónico o 
+cualquier otro método de contacto con el cliente, queriendo cancelar una reserva.
+
+El administrador tendra que introducir su usuario y contraseña.
+
+El administrador accederá al panel de administración.
+
+El administrador entrará en la sección de reservas.
+
+Aparecerá una lista con todas las reservas, las cuales tendrán la posibilidad de 
+ser seleccionadas.
+
+El administrador buscará visualmente la reserva acorde con el nombre que le proporcione
+la persona que se ha puesto en contacto con él, así como el número de reserva (y los datos
+que el administrador considere oportunos para aumentar la seguridad).
+
+Una vez identificada la reserva, el administrador la seleccionará, y, tras la confirmación
+del cliente, pulsará en el botón de eliminar reserva.
+
+En este punto, el sistema borrará de la lista de reservas, la que ha sido seleccionadas
+e informará al administrador si el proceso ha tenido o no éxito.
+
+En caso de haberse producido un fallo, se volverá atrás y podrá intentarlo de nuevo.

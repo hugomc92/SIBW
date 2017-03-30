@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of opinions */
+
+#container {
+	width: 80%;
+	margin: 0 10%;
+	padding-top: 50px;
+}
+
+#scores {
+	width: 49%;
+	display: inline-block;
+}
+
+#scores > h1 {
+	margin-left: 5%;
+	color: white;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#scores ul {
+	margin-left: 5%;
+	padding: 0;
+}
+
+/* Tamaño y color de los textos de las puntuaciones */
+#scores ul li {
+	list-style: none;	
+	font-size: 20px;
+	color: white;
+	margin-top: 5px;
+}
+
+/* Da el estilo a la nota final */
+#finalscore { 	
+	font-size: 30px;	
+	border-radius: 50%;
+	width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: lightsteelblue;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+	margin-bottom: 30px;
+	margin-left: 10%;  
+}
+
+#scores ul span {
+	font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif
+}
+
+/* Da el estilo a cada una de las puntuaciones */
+.score {
+	font-size: 22px;		
+	text-align:center; 
+	color: lightsteelblue;	
+	text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+/* Imagen junto a las puntuaciones */
+#pic_principal {
+	display: inline-block;
+}
+
+/* Div que contendra toda la información de cada uno de los comentarios */
+.client_opinion {
+	margin: 30px 0;	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: #eeeeee;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Nombre y fecha del comentario */
+.data_opinion {
+	font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	font-weight: bold;
+	font-size: 20px;	
+	margin-left: 30px;
+}
+
+.client_opinion ul {
+	list-style: none;
+	margin: 0 4%;
+	padding: 20px 0;
+	font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman",serif;
+}	
+
+/* Puntuaciones en cada uno de los campos */
+.client_opinion ul li {
+	font-size: 18px;	
+	display: inline-block;
+	padding-right: 15px;
+}
+
+/* Cambia el color a la puntuación dada por el usuario */
+.single_score {
+	color: steelblue;
+	font-weight: bold;
+}
+
+/* Div que contiene la puntuación final del usuario y el texto del comentario */
+.opinion_text { 	
+	font-size: 18px;
+}
+
+/* Puntuación final del usuario */
+.client_score {
+	float: right;
+	font-size: 30px;	
+	border-radius: 50%;
+	width: 36px;
+    height: 36px;
+    padding: 8px;
+	margin-right: 5%;
+    background: lightsteelblue;
+    border: 2px solid grey;
+    color: white;
+    text-align: center;
+}
+
+.opinion_text p {
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+}
+
+/* Recomendación del usuario que aparecera en negrita */
+.client_recom {
+	font-weight: bold;
+}
+
+.opinion_text p {
+	margin: 10px 10%;
+	padding-right: 70px;
+}
+
+.recommendation {
+	font-weight: bold;	
+	margin-bottom: -10px;
+	padding-top: 20px;
+}
+
+/* Hacer la página responsive */
+/* Los elementos superiores se van ajustando,
+ la imagen se coloca debajo del texto y aumenta su tamaño */
+@media screen and (max-width: 941px) {
+	#scores {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	#scores > h1 {
+		width: 350px;
+		margin: 0 auto;
+	}
+
+	#scores > ul {
+		width: 280px;
+		margin: 0 auto;
+	}
+	
+	#finalscore {
+		margin: 30px auto;
+	}
+	
+	#pic_principal {
+		width: 100%;
+		display: block;
+		float: none;
+		margin: 20px auto;
+	}
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Hoja de estilos para el proceso de pago */
+
+@media screen and (max-width: 420px) {		
+
+	.content {
+		float: right;
+	}
+
+	#container {		
+		margin: 10%;
+	}	
+
+	.payment_container {		
+		margin: 0 0;
+	}	
+	
+	.form_reservation {	
+		margin: 0 0;
+	}
+	
+	.form_container {		
+		margin: 0 0;		
+	}
+	
+	.processing_booking {			
+		float: none;
+		text-align: center;
+	}
+	
+	.go_back {			
+		float: none;
+		text-align: center;
+	}
+}

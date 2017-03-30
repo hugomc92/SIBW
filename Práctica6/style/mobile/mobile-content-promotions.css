@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Promotions */
+
+/* Hacer la página responsive */
+/* En este tamaño, además del tamaño, se establecen en bloques en las pestañas para que se
+vean una encima de otra, además de poner el texto de la promoción principal debajo, para
+mejorar la lectura al no verse tan pequeño */
+@media screen and (max-width: 836px) {
+	.content {
+		width: 100%;
+	}
+	
+	.content > h1 {
+		margin-top: 10px;
+	}
+	
+	.prom_content img {
+		min-width: 100%;
+	}
+	
+	#first {
+		margin-top: 300px;
+	}
+	
+	.include, .more_info {
+		width: 95%;
+		display: block;
+	}
+	
+	.prom_info {
+		margin: 0 10px;
+		width: 95%;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -60px;
+		margin-bottom: -40px;
+	}
+}
+
+/* Eliminar el > de los botones de reserva, para que 
+no se baje a la siguiente línea */
+@media screen and (max-width: 250px) {
+	.book::after {
+		display: none;
+	}
+}

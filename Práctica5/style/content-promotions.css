@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Promotions */
+
+.content {
+	width: -webkit-calc(100% - 300px);
+	width: -moz-calc(100% - 300px);
+	width: -o-calc(100% - 300px);
+	width: calc(100% - 300px);
+	padding-bottom: 20px
+}
+
+/* Nombre de la página */
+.content > h1 {
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#promotions {
+	width: 80%;
+	margin: 50px 10%;
+	text-align: center;
+}
+
+/* Cada una de las pestañas de las promociones */
+#tabs {
+	width: 100%;
+	padding: 0;
+	margin: 5px auto;
+	
+	z-index: 10;
+}
+
+#tabs:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Contenido de las pestañas, inicialmente oculto, sólo mostrado el de la pestaña marcada */
+.prom_content {
+	margin-bottom: 30px;
+	width: 100%;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color:#eeeeee;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+.prom_content img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Animación de todos los elementos del contenido */
+.prom_content * {
+	-webkit-animation: scale 1s ease-in-out;
+	-moz-animation: scale 1s ease-in-out;
+	-o-animation: scale 1s ease-in-out;
+	animation: scale 1s ease-in-out;
+}
+
+/* Transformaciones según el momento en que esté la animación */
+@keyframes scale {
+	0% {
+		-webkit-transform: scale(0.7);
+		-moz-transform: scale(0.7);
+		-o-transform: scale(0.7);
+		transform: scale(0.7);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		transform: scale(1.1);
+		opacity: 0.5;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+/* Botón reservar */
+.book {
+	float: right;
+	margin-right: 10%;
+	padding: 10px;
+	color: white;
+	background: lightsteelblue;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Copperplate,"Copperplate Gothic Light";
+	-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+	-o-border-radius: 12px;
+    border-radius: 12px;
+	-webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.book::after {
+	display: inline-block;
+	content: '\232a';
+	vertical-align: middle;
+	font-weight: bold;
+	margin-top: -3px;
+    margin-left: 20px;
+	margin-right: 5px;
+	font-family: Copperplate,"Copperplate Gothic Light";
+}
+
+.book:hover {
+	background: steelblue;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos para la promoción de la Alhambra y Sierra Nevada */
+.prom {
+	margin: 20px auto;
+}
+
+.include, .more_info {
+	display: inline-block;
+	margin: 0 10px;
+	text-align: left;
+	width: 370px;
+}
+
+.include p {
+	font-weight: bold;
+	margin: 0;
+}
+
+.include ul {
+	margin: 0;
+}
+
+.include ul li {
+	padding: 5px 0;
+}
+
+.include ul li ul {
+	list-style: outside none;
+	padding: 0;
+}
+
+.include ul li ul li::before {
+	content: '\00a0-\00a0\00a0';
+}
+
+.more_info p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.more_info ul {
+	list-style: outside none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.prom_info {
+	width: 75%;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+/* Hacer la página responsive */
+/* En este tamaño simplemente se cambia el tamaño de ciertos elementos */
+@media screen and (max-width: 1019px) {
+	.prom_content img {
+		min-width: 90%;
+	}
+	
+	.include, .more_info {
+		width: 40%;
+	}
+	
+	.prom_info {
+		width: 83%;
+	}
+}
+
+/* En este tamaño, además del tamaño, se establecen en bloques en las pestañas para que se
+vean una encima de otra, además de poner el texto de la promoción principal debajo, para
+mejorar la lectura al no verse tan pequeño */
+@media screen and (max-width: 836px) {
+	.content {
+		width: 100%;
+	}
+	
+	.content > h1 {
+		margin-top: 10px;
+	}
+	
+	.prom_content img {
+		min-width: 100%;
+	}
+	
+	#first {
+		margin-top: 300px;
+	}
+	
+	.include, .more_info {
+		width: 95%;
+		display: block;
+	}
+	
+	.prom_info {
+		margin: 0 10px;
+		width: 95%;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -60px;
+		margin-bottom: -40px;
+	}
+}
+
+/* Eliminar el > de los botones de reserva, para que 
+no se baje a la siguiente línea */
+@media screen and (max-width: 250px) {
+	.book::after {
+		display: none;
+	}
+}

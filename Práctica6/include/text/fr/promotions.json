@@ -1,0 +1,48 @@
+{
+    "promotionstitle" : "PROMOTIONS",
+    "booking" : "RÉSERVER",
+    "includetitle" : "Comprend:",
+    "include1" : "2 nuits d'hébergement dans les chambres standard",
+    "include2" : "Petit déjeuner continental",
+    "include3" : "Visite guidée de l'Alhambra:",
+    "include4" : "Collection, aller-retour en bus à l'hôtel",
+    "include5" : "Hôtesse de passagers",
+    "include6" : "Les billets pour le monument",
+    "include7" : "Guide officiel",
+    "duration" : "Durée:",
+    "schedule" : "Horaire:",
+    "release" : "Release 48 h",
+    "cancellationpollicy" : "Procédure d'annulation 72 h",
+    
+    "prom1" : "OFFRE DEUX NUITS",
+    "promtext1" : "Profitez d'une remise de 10% sur les séjours d'un minimum de deux nuits.",
+    
+    "prom2" : "OFFRE 10% DE DESCUENTO",
+    "promtext2" : "Profitez d'une réduction de 10% sur ce montant non remboursable.",
+    "promtext3" : "Seulement sans réservation sur notre site",
+    
+    "prom3" : "OFFRE DE RÉSERVATION ANTICIPÉE",
+    "promtext4" : "Profitez d'une réduction de 10% en réservant 21 jours à l'avance.",
+    
+    "prom4" : "OFFRE CHAMBRE + GUIDÉE À LA ALHAMBRA",    
+    "promtext5" : "sur 3h.",    
+    "promtext6" : "sous réserve de disponibilité lors de la réservation",    
+    "promtex17" : "Dimanche au jeudi 204 €",
+    "promtext8" : "Vendredi et samedi 224 €",    
+    "promtext9" : "Profitez de l'instant sans soucis avec nous.",
+    "promtext10" : "Vous découvrirez avec nous le seul monde musulman de la ville médiévale la mieux préservée, l'Alhambra; visiter ses palais, Mexuar, Comares, Leones, Generalife; marchant à travers les cours de Arrayenes, la Reja, la Acequia, la sultane; et profiter de leurs jardins, Partal, la Médina et la suspuesto Generalife avec des jeux d'eau drôles, et sa disposition labyrinthique.",
+    
+    "prom5" : "OFFRE CHAMBRE + SKI (OU SNOWBOARD) DANS LA SIERRA NEVADA",
+    "promtext11" : "toute la journée.",
+    "promtext12" : "Haute saison: 100 € + 60 € par personne",
+    "promtext13" : "Moyenne / Basse Saison: 80 € + 45 € par personne",
+    "promtext14" : "Profitez de l'instant avec nous.",
+    "promtext15" : "Collection, aller-retour en bus à l'hôtel",
+    "promtext16" : "Vous nous trouverez une merveille située dans le sud de la péninsule ibérique, les montagnes de la Sierra Nevada est la maison du parc national Altas Cumbres (Mulhacén 3482 m weathervane 3,392 m, et vingt sommets de plus de 3000 mètres au-dessus du niveau de la mer, qui rend le toit de la péninsule ibérique.). Un territoire privilégié où les plus grandes richesses de la biodiversité végétale à travers l'Europe, les écosystèmes uniques dans le monde et les paysages glaciaires. 86.000 hectares protégés par le chiffre juridique et environnemental le plus élevé. La déclaration du parc national a eu lieu en 1999, avec le consensus de tous les groupes politiques du Parlement espagnol au moment et après la demande unanime des représentants parlementaires régionales d'Andalousie. Loi 3/1999, du 11 Janvier, par le parc national de la Sierra Nevada est créé (BOE, n ° 11, du 13 Janvier, 1999).",
+    
+    "alt1" : "2 nuits offrent",
+    "alt2" : "Hôtel façade",
+    "alt3" : "Patio Hôtel",
+    "alt4" : "Alhambra",
+    "alt5" : "Sierra Nevada" 
+}

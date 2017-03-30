@@ -1,0 +1,15 @@
+ADMINISTRADOR - REALIZAR RESERVA
+
+El administrador recibe una llamada de alguien queriendo realizar una reserva.
+
+El aministrador accederá al sistema introduciendo un usuario y contraseña (Este paso
+no será estrictamente necesario, si no se introdujera, no se podrá acceder a la opción
+1 del siguiente paso).
+
+En este punto, el administrador tendrá dos opciones:
+	1.- Entrar en el panel de reservas y hacer click en nueva reserva, lo cual lo redirigirá
+	a la sección de reserva de la web (vista del cliente).
+	2.- Entrar en la sección de la web (vista del cliente) relacionada con reservas.
+	
+El administrador realiza el paso de realizar la reserva según lo descrito en el documento
+"cliente - realizar reserva".

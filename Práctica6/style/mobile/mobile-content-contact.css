@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Contact and Map */
+
+/* Hacer la página responsive */
+/* Adaptar el formulario para pantallas más pequeñas */
+@media screen and (max-width: 836px) {
+	.content {
+		width: 100%;
+	}
+	
+	#dphone {
+		width: 370px;
+	}
+	
+	#phone {
+		width: 300px;
+	}
+	
+	#lphone {
+		left: -93px;
+	}
+	
+	#lphone.foc {
+		left: -102px;
+	}
+	
+	#dmessage {
+		width: 360px;
+	}
+	
+	#message {
+		width: 300px;
+	}
+	
+	#lmessage {
+		left: -115px;
+	}
+	
+	#lmessage.foc {
+		left: -125px;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -30px;
+		margin-bottom: -30px;
+	}
+}
+
+/* Adaptar el formulario para móviles */
+@media screen and (max-width: 370px) {
+	#dname, #dphone, #demail, #dmessage {
+		width: 90%;
+	}
+	
+	#name, #phone, #email, #message {
+		width: calc(90% - 50px);
+	}
+	
+	#lname, #lmessage {
+		text-align: left;
+		margin-left: 90px;
+	}
+	
+	#lphone, #lemail, #lmessage.foc {
+		text-align: left;
+		margin-left: 100px;
+	}
+	
+	#lname.foc, #lphone.foc, #lemail.foc {
+		text-align: left;
+	}
+	
+	#dmessage img {
+		margin-left: 15px;
+	}
+	
+	#message {
+		margin-left: -10px;
+	}
+}

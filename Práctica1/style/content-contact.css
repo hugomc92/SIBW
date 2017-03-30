@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Contact and Map */
+
+/* iframe para Google Map */
+#googleMap {
+	border: 0;
+	display: block; 
+	margin-top: -2px;
+}
+
+/* Información de contacto superpuesta al iframe del mapa */
+#contact_info {
+	width: 300px;
+	float: right;
+	margin-right: 4%;
+	margin-top: -290px;
+	background: rgba(58, 111, 167, 0.7);
+	position: relative;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+}
+
+#contact_info ul {
+	list-style: none;
+}
+
+#contact_info h2 {
+	padding-left: 40px;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#contact_info ul li {
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	padding: 3px 0;
+}
+
+#contact_info ul li a {
+	color: lightblue;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#contact_info ul li a:hover {
+	color: darkblue;
+}
+
+/* Información explicativa de cómo llegar */
+#arrive {
+	padding: 50px 10%;
+}
+
+#arrive h2 {
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	color: steelblue;
+	text-align: center;
+}
+
+#arrive p {
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	text-align: justify;
+}
+
+/* Hacer la página responsive */
+/* Cambia la información de contacto debajo del iframe en vez de superpuesto,
+además de su tamaño y centrarlo en el centro de la pantalla, el alto del iframe
+del mapa para que los móviles pequeños puedan hacer scroll no sólo en el mapa */
+@media screen and (max-width: 1130px) {
+	#googleMap {
+		height: 300px;
+	}
+	
+	#contact_info {
+		float: none;
+		position: relative;
+		width: 100%;
+		color: white;
+		margin-top: 50px !important;
+		background: rgba(255, 255, 255, 0);
+		text-align: center;
+		box-shadow: 0 0 0px;
+	}
+	
+	#contact_info h2, #contact_info ul {
+		margin: 15px auto !important;
+		width: 300px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	#contact_info ul li a {
+		color: steelblue;
+	}
+	
+	#arrive {
+		padding-top: 15px;
+	}
+}

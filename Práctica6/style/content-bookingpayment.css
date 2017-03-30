@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Hoja de estilos para el proceso de pago */
+
+#container {
+	display: inline-block;
+	width: 50%;
+	padding: 50px;
+	margin-left: 50px;
+}
+
+.payment_container {
+	padding: 20px;
+}
+
+.form_container {
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.form_reservation legend {
+	font-size: 1.5em;
+	color: gray;
+}
+
+.form_reservation input, .form_reservation textarea {
+	display: block;
+	border: 1px solid #ccc;
+	padding: 5px 8px;
+	color: #454545;
+	background: #eeeeee;
+	font-size: 0.9em;
+	font-weight: 300;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	resize: none;
+}
+
+.go_back {
+	border: 0;
+	float: left;
+	background: steelblue !important;
+	color: white !important;
+	border-radius: 5px !important;
+}
+
+.go_back:hover {
+	cursor: pointer;
+	color: black !important;
+	background: lightsteelblue !important;
+}
+
+.processing_booking {
+	border: 0;
+	float: right;
+	background: steelblue !important;
+	color: white !important;
+	border-radius: 5px !important;
+}
+
+.processing_booking:hover {
+	cursor: pointer;
+	color: black !important;
+	background: lightsteelblue !important;
+}
+
+.pay h3 {
+	margin: 0;
+}
+
+.type_card {
+	margin: 20px 0;
+}
+
+.date {
+	display: inline-block;
+	margin-right: 15px;
+	width: 30%;
+}
+
+.cvc {
+	display: inline-block !important;
+	width: 20%;
+}
+
+.entry {
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	margin: 5px 0;
+}
+
+.persons {
+	border-bottom: 2px solid gray;
+}
+
+.children {
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	margin: 5px 0;
+}
+
+.cont {
+	margin: 10px 0;
+	padding: 5px;
+	border: 1px solid gray;
+	font-weight: bold;
+	text-align: left;
+	background: lightsteelblue;
+}
+
+.cont_name {
+	margin: 0;
+	display: inline-block;
+}

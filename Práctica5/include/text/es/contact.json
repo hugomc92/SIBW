@@ -1,0 +1,23 @@
+{
+	"contacttitle1" : "CONTACTO",
+	"contactdata1" : "Dirección: Imprenta, nº 2",
+	"contactdata2" : "Localidad: Granada",
+	"contactdata3" : "Provincia: Granada",
+	"contactdata4" : "País: España",
+	"contactdata5" : "Teléfono: ",
+	"contactdata6" : "Fax: ",
+	"contactdata7" : "Email: ",
+	"contacttitle2" : "CÓMO LLEGAR",
+	"contacttext1" : "Para llegar al Hotel Plaza Nueva toma el Anillo de Granada, dirección Motril-Sierra Nevada, y coge la salida número 128: Centro-Méndez Núñez. Continua por la avenida Fuente Nueva-Severo Ochoa y, sin tomar el túnel, gira a la derecha en la Avenida de la Constitución.",
+	"contacttext2" : "Al final hay una rotonda con una bandera de España. Gira a la izquierda en la Avenida del Hospicio (deja los Jardines del Triunfo a tu izquierda) y gira a la derecha (hay un semáforo en la intersección) Avenida Capitán Moreno.",
+	"contacttext3" : "Sigue recto hasta el final de la avenida y en la rotonda continúa recto. Luego gira a la izquierda (justo enfrente de un hotel) y pasa bajo el Arco o Puerta Elvira. Continúa por la calle Elvira. Hacia el final de la calle verás señales luminosas. Continúa recto y verás un kiosco. Al final de la calle Pan se encuentra la entrada principal del Hotel Plaza Nueva. Se puede llegar hasta la puerta del hotel para descargar el equipaje.",	
+	"contacttext4" : "Si has reservado aparcamiento, situado a sólo 100 metros del hotel, te acompañaremos. La tarifa de aparcamiento es de 20,00 € al día y la hora de salida es a las 12:00. Recuerda que si cancelas el estacionamiento en el día de llegada, debes pagar el 50% del importe de la tarifa, ya que las plazas son limitadas.",
+	"formtitle" : "CONTACTA CON NOSOTROS",
+	"form1" : "Nombre y apellidos",
+	"form2" : "Teléfono",
+	"form3" : "E-mail",
+	"form4" : "Mensaje",
+	"formbutton1" : "LIMPIAR FORMULARIO",
+	"formbutton2" : "ENVIAR",
+	"formbutton3" : "ACEPTAR"
+}

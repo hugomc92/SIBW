@@ -1,0 +1,41 @@
+{
+    "roomstitle" : "ZIMMER",
+    
+    "roomdescription1" : "Unser Zimmer mit Blick auf die Plaza Nueva und dem Torre de la Vela, der auf dem Gelände der Alhambra gehört, können Sie eine andere Perspektive auf die Stadt genieben. Genieben Sie diese Erfahrung für eine kleine Gebühr.",
+    "roomsdescription2" : "Das Hotel hat auch Innenräume für Menschen zu empfehlen, die mit maximaler Ruhe entspannen wollen.",
+    "roomsdescription3" : "Die Zimmer verfügen über ein Bad, Klimaanlage , TV, Telefon und Safe für Ihren Seelenfrieden .",
+    
+    "roomservicestext" : "Im Zimmer wird mit einem WLAN-Zugang, Klimaanlage , Satelliten-TV-Dienst, Krippen (auf Anfrage), Safe und Telefon.",
+    
+    "room1" : "DOPPELZIMMER ODER ZWEIBETTZIMMER",
+    "roomtext1" : "In unserem Standard-Zimmer genieben Sie alle Einrichtungen und Annehmlichkeiten, um Ihren Aufenthalt in Granada verdient.",    
+    "price" : "Von nur ",
+    
+    "room2" : "SUPERIOR-DOPPELZIMMER",
+    "roomtext2" : "Genieben Sie einen herrlichen Blick von der Plaza Nueva und dem Zentrum von Granada aus unserer Superior-Zimmer.",       
+    
+    "room3" : "DREIBETTZIMMER",
+    "roomtext3" : "In unserem Dreibettzimmer können Sie Ihren Urlaub mit Familie oder Freunden im Zentrum von Granada genieben.",   
+    
+    "servicestitle" : "ZIMMERAUSSTATTUNG",
+    "service1" : "Schliebfach",
+    "service2" : "Ausstattung im Badezimmer",
+    "service3" : "Internet Wi-fi",   
+    "service4" : "Klimaanlage",
+    "service5" : "Satelliten-TV",
+    "service6" : "Kinderbetten (auf Anfrage)",
+    "service7" : "Haartrockner",
+    "service8" : "Telefon",
+    
+    "alt1" : "Doppelzimmer",
+    "alt2" : "Superior-Doppelzimmer",
+    "alt3" : "Dreibettzimmer",
+    "alt4" : "Icon Safe",
+    "alt5" : "Icon Ausstattung",
+    "alt6" : "Icon Wifi",
+    "alt7" : "Icon Klimaanlage",
+    "alt8" : "Satellitenfernsehen Symbol",
+    "alt9" : "Icon Baby Service",
+    "alt10" : "icon Maker",
+    "alt11" : "Symbol Telefon"
+}

@@ -1,0 +1,48 @@
+{
+    "promotionstitle" : "PROMOCIONES",
+    "booking" : "RESERVAR",
+    "includetitle" : "Incluye:",
+    "include1" : "2 noches de alojamiento en habitaciones estándar",
+    "include2" : "Desayuno continental",
+    "include3" : "Visita guiada a la Alhambra:",
+    "include4" : "Recogida, ida y vuelta, en bus en el hotel",
+    "include5" : "Azafata acompañante",
+    "include6" : "Entradas al monumento",
+    "include7" : "Guía oficial",
+    "duration" : "Duracion:",
+    "schedule" : "Horario:",
+    "release" : "Release 48 h",
+    "cancellationpollicy" : "Política de cancelación 72 h",
+    
+    "prom1" : "OFERTA DOS NOCHES",
+    "promtext1" : "Disfrute de un 10% de descuento en estancias de un mínimo de dos noches.",
+    
+    "prom2" : "OFERTA 10% DE DESCUENTO",
+    "promtext2" : "Disfrute de un 10% de descuento con esta tarifa no reembolsable.",
+    "promtext3" : "Sólo si reserva a través de nuestra web",
+    
+    "prom3" : "OFERTA RESERVA ANTICIPADA",
+    "promtext4" : "Disfruta de un 10% de descuento reservando con 21 días de antelación.",
+    
+    "prom4" : "OFERTA HABITACIÓN + VISITA GUIADA A LA ALHAMBRA",    
+    "promtext5" : "aproximadamente 3h.",    
+    "promtext6" : "según disponibilidad al hacer la reserva",    
+    "promtex17" : "De domingo a jueves 204€",
+    "promtext8" : "Viernes y sábado 224€",    
+    "promtext9" : "Disfrute del momento con nosotros sin preocupaciones.",
+    "promtext10" : "Descubrirá con nosotros la única Ciudad Medieval Musulmana mejor conservada del mundo, la Alhambra; visitando sus palacios, Mexuar, Comares, Leones, Generalife;	paseando por sus patios, de los Arrayenes, la Reja, la Acequia, la Sultana; y disfrutando de sus jardines, de Partal, de la Medina y por suspuesto del Generalife con sus gracioso juegos de agua, y su laberintico diseño.",
+    
+    "prom5" : "OFERTA HABITACIÓN + ESQUÍ (O SNOWBOARD) EN SIERRA NEVADA",
+    "promtext11" : "aproximadamente todo el día.",
+    "promtext12" : "Temporada Alta: 100€ + 60€ por persona",
+    "promtext13" : "Temporada Media/Baja: 80€ + 45€ por persona",
+    "promtext14" : "Disfrute del momento con nosotros.",
+    "promtext15" : "Recogida, ida y vuelta, en bus en el hotel",
+    "promtext16" : "Descubrirá con nostros una maravilla situada en el sur de la península Ibérica, el macizo de Sierra Nevada alberga el Parque Nacional de las Altas Cumbres (Mulhacén con 3.482 m y Veleta con 3.392 m, y otros veinte picos más con 3.000 metros de altitud, lo que le convierte en el techo de la península ibérica.). Un privilegiado territorio donde se encuentran las mayores riquezas en biodiversidad vegetal de toda Europa, ecosistemas únicos en el mundo y paisajes glaciales. 86.000 hectáreas protegidas con la máxima figura jurídica y ambiental. La declaración de Parque Nacional se produjo en 1999, con el consenso de todos los		grupos políticos presentes en el Parlamento Español en aquel momento y tras la	petición unánime de los representantes parlamentarios autonómicos de Andalucía. la LEY 3/1999, de 11 de enero, por la que se crea el Parque Nacional de Sierra Nevada (BOE, nº 11, de 13 de enero de 1999).",
+    
+    "alt1" : "Oferta 2 noches",
+    "alt2" : "Fachada hotel",
+    "alt3" : "Patio del hotel",
+    "alt4" : "Alhambra",
+    "alt5" : "Sierra Nevada"    
+}

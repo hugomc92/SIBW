@@ -1,0 +1,18 @@
+CLIENTE - PROCESO DE PAGO (BLOQUEO DE RESERVA)
+
+El cliente introduce el titular de la tarjeta, los dígitos de la misma, la fecha de caducidad (para
+esto seleccionará el mes y el año desde una lista), el número de control (compuesto por 3 dígitos).
+
+Cabe decir que durante todo este el proceso, el usuario puede volver a algún punto atrás para realizar las modificaciones
+que así desee.
+
+El cliente pulsará sobre el botón de tramitar reserva.
+
+El sistema tomará los datos de la tarjeta y los validará.
+
+El sistema notificará al usuario del éxito de la operación.
+
+En caso de éxito se enviará un correo electrónico con la información requerida en la reserva, así como un identificador 
+de la reserva. Este email se enviará tanto al cliente como al hotel.
+
+En caso de fallo, se le notificará al usuario a través de la web.

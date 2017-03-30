@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Booking Selection */
+
+.container {
+	position: absolute;
+	top: 60px;
+	left: 70px;
+	right: 0;
+	bottom: 50px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 30px;
+	text-align: center;	
+}
+
+#content_reservation h1 {
+	text-align: center;
+}
+
+#content_reservation {	
+	width: 80%;
+	margin: 50px auto 50px auto;
+	margin-right: 10%;
+}
+
+#content_reservation h1 {
+	margin-top: 0;
+	padding-bottom: 20px;
+	border-bottom: 2px solid gray;
+	margin-right: 0;
+}
+
+#data_booking {
+	text-align: left;
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 150px;
+	margin-right: 10%;
+}
+
+.single_data {
+	margin: 10px 10px;
+}
+
+.table_active_container {
+	text-align: center;
+	width: 60%;
+	overflow-x: auto;
+	margin: 0;
+	background: #9a9a9a;
+}
+
+.table_active_container table {
+	width: 100%;
+	min-width: 650px;
+}
+
+.table_active_container > * {
+	text-align: left;
+}
+
+.table_active_container td {
+	background: #eeeeee;
+}
+
+.input_chk {
+	width: 1%;
+}
+
+#id_room_reservation {
+	width: 3%;	
+}
+
+#room_type {
+	width: 50%;
+}
+
+#room_price {
+	width: 10%;
+}
+
+#room_entry {
+	width: 10%;
+}
+
+#room_exit {
+	width: 10%;
+}
+
+#room_number {
+	width: 5%;
+}
+
+#room_selection {
+	width: 2%;
+}
+
+.id_row {
+	text-align: center;
+	font-weight: bold;
+}
+
+.selection {
+	list-style: none;
+	padding: 0;
+}
+
+.selection li {
+	text-align: center;
+}
+
+.selection li select {
+	width: 90%;
+	margin: 5px 5%;
+}
+
+.table_buttons {
+	text-align: right;
+	padding: 20px;
+}
+
+.table_buttons span, .table_buttons a {
+	display: inline-block;
+	color: black;
+	background: lightgray;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 20px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-box-shadow: 0 0 10px black;
+	-moz-box-shadow: 0 0 10px black;
+	-o-box-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px black;
+}
+
+.table_buttons span:hover, .table_buttons a:hover {
+	cursor: pointer;
+	background: gray;
+	color: white;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.form_container {
+	width: 80%;
+	margin: 50px auto 50px auto;
+	padding: 30px;
+	margin-right: 35%;
+	display: block;	
+}
+
+#form_reservation legend {
+	display: block;	
+}
+
+#form_reservation legend {
+	font-size: 1.5em;
+	color: gray;	
+}
+
+#form_reservation input, .form_reservation textarea {
+	display: block;
+	border: 1px solid #ccc;
+	padding: 5px 8px;
+	color: #454545;
+	background: #eeeeee;
+	font-size: 0.9em;
+	font-weight: 300;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	resize: none;
+}
+
+.personal_info {
+	width: 65%;
+}
+
+.name {
+	width: 70%;
+}
+
+.email {
+	width: 50%;
+}
+
+.phone {
+	width: 30%;
+}
+
+.dni {
+	width: 25%;
+}
+
+.observations {
+	width: 50%;
+	height: 200px;
+	margin: 20px 0  20px 15px !important;	
+}
+
+.booking_send {
+	border: 0;
+	background: steelblue !important;
+	color: white !important;
+	border-radius: 5px !important;	
+	float: right;
+	margin-right: 45%;
+	margin-bottom: 2%;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 5px 8px;
+	color: #454545;
+	background: #eeeeee;
+	font-size: 0.9em;
+	font-weight: 300;	
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	resize: none;
+}
+
+.booking_send:hover {
+	cursor: pointer;
+	color: black !important;
+	background: lightsteelblue !important;
+}
+
+.pay h3 {
+	margin: 0;
+}
+
+.basket_container {
+	position: fixed;
+	right: 0;
+	top: 140px;
+	margin-right: 50px;
+	padding: 30px;
+	width: calc(50% - 260px);
+	float: right;
+}
+
+.basket {
+	background: #eeeeee;
+	text-align: center;
+	border: 2px solid gray;
+}
+
+.basket h2 {
+	border-bottom: 2px solid gray;
+	padding: 10px 0;
+	margin: 0;
+	background: #ccc;
+}
+
+.entry {
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	margin: 5px 0;
+}
+
+.exit {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	margin: 5px 0;
+}
+
+.persons {
+	border-bottom: 2px solid gray;
+}
+
+.adults {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	margin: 5px 0;
+}
+
+.children {
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	margin: 5px 0;
+}
+
+.content_reservation {
+	width: 80%;
+	margin: 10px auto 10px auto;	
+}
+
+.cont {
+	margin: 10px 0;
+	padding: 5px;
+	border: 1px solid gray;
+	font-weight: bold;
+	text-align: left;
+	background: lightsteelblue;
+}
+
+.cont_name {
+	margin: 0;
+	display: inline-block;
+}
+
+.remove {
+	margin: 0;
+	float: right;
+	margin-right: -10%;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	background: steelblue;
+	border-radius: 50%;
+}
+
+.price {
+	text-align: right;
+	margin-right: 10%;
+}
+
+@media screen and (max-width: 340px) {
+	.table_buttons {
+		margin-top: 0;
+	}
+	
+	.table_buttons span, .table_buttons a {
+		margin: 20px auto;
+		width: 80%;
+		display: block;
+		text-align: center;
+	}
+}

@@ -1,0 +1,31 @@
+﻿ADMINISTRADOR - MODIFICACIÓN DE RESERVA
+
+El administrador recibe una llamada de alguien o bien por correo electrónico o 
+cualquier otro método de contacto con el cliente, queriendo modificar una reserva.
+
+El administrador tendra que introducir su usuario y contraseña.
+
+El administrador accederá al panel de administración.
+
+El administrador entrará en la sección de reservas.
+
+Aparecerá una lista con todas las reservas, las cuales tendrán la posibilidad de 
+ser seleccionadas.
+
+El administrador buscará visualmente la reserva acorde con el nombre que le proporcione
+la persona que se ha puesto en contacto con él, así como el número de reserva (y los datos
+que el administrador considere oportunos para aumentar la seguridad).
+
+Una vez identificada la reserva, el administrador podrá cambiar aquellos parámetros que
+el usuario le haya indicado, pulsando directamente sobre ellos y sobreescribiéndolos en 
+el caso de ser escritos, así como modificar las fechas de entrada y salida mediante una 
+selección en el calendario.
+
+Acto seguido, el administrador confirmará los cambios con el cliente.
+
+Si el cliente da el visto bueno, el administrador pulsará el botón de guardar cambios.
+
+El sistema recargará la página, recalculando automáticamente el nuevo precio (en caso de
+ser necesario), así como indicando al administrador el éxito de la operación.
+
+En caso de la notificación de algún fallo, el administrador podrá volver atrás en el proceso.

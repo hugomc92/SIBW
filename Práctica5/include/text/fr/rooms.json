@@ -1,0 +1,41 @@
+{
+    "roomstitle" : "CHAMBRES",
+    
+    "roomdescription1" : "Nos chambres avec vue sur la Plaza Nueva et la Torre de la Vela, qui appartient à la base de l'Alhambra, vous pouvez profiter d'une perspective différente de la ville. Profitez de cette expérience pour une somme modique.",
+    "roomsdescription2" : "L'hôtel dispose également de salles intérieures recommandées pour les personnes qui veulent se détendre avec un maximum de tranquillité.",
+    "roomsdescription3" : "Les chambres disposent également d'une salle de bains, air conditionné, TV, téléphone et coffre-fort gratuit pour votre tranquillité d'esprit.",
+    
+    "roomservicestext" : "Dans la salle comprendra une connexion Wi-Fi gratuite, la climatisation, un service de télévision par satellite, berceaux (sur demande), coffre-fort et téléphone.",
+    
+    "room1" : "CHAMBRE DOUBLE OU TWIN",
+    "roomtext1" : "Dans nos chambres standard, vous pourrez profiter de toutes les facilités et commodités que votre séjour à Grenade mérite.",    
+    "price" : "De seulement ",
+    
+    "room2" : "CHAMBRE DOUBLE SUPÉRIEURE",
+    "roomtext2" : "Profitez d'une vue magnifique de la Plaza Nueva et du centre de Grenade à partir de nos chambres supérieures.",     
+    
+    "room3" : "CHAMBRE TRIPLE",
+    "roomtext3" : "Dans nos chambres triples, vous pouvez profiter de vos vacances en famille ou entre amis dans le centre de Grenade.",      
+    
+    "servicestitle" : "LES AMÉNAGEMENTS DES CHAMBRES",
+    "service1" : "Coffre-fort",
+    "service2" : "Équipements dans la salle de bain",
+    "service3" : "Internet WI-fi",   
+    "service4" : "Air conditionné",
+    "service5" : "TV par satellite",
+    "service6" : "Berceaux (sur demande)",
+    "service7" : "Sèche-cheveux",
+    "service8" : "Téléphone",
+    
+    "alt1" : "Chambre double",
+    "alt2" : "Chambre double supérieure",
+    "alt3" : "Chambre triple",
+    "alt4" : "Icône sécuritaire",
+    "alt5" : "Icône équipements",
+    "alt6" : "Icône Wifi",
+    "alt7" : "Icône air conditionné",
+    "alt8" : "Icône Télévision par satellite",
+    "alt9" : "Icône service des lits",
+    "alt10" : "Icône Sèche-cheveux",
+    "alt11" : "Icône Téléphone"
+}

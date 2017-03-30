@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Hoja de estilos principal para el panel de administración */
+
+/* Hacer la página responsive */
+@media screen and (max-width: 836px) {
+	#admin_sidebar {
+		right: 0;
+		visibility: hidden;
+		opacity: 0;
+		max-height: 0;
+	}
+	
+	#admin_sidebar.selected {
+		visibility: visible;
+		opacity: 1;
+		max-height: -webkit-fit-content;
+		max-height: -moz-fit-content;
+		max-height: -o-fit-content;
+		max-height: fit-content;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	#find {
+		margin-top: 20px;
+		width: 100%;
+	}
+}

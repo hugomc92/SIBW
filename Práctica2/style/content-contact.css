@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Contact and Map */
+
+/* iframe para Google Map */
+#googleMap {
+	border: 0;
+	display: block; 
+	margin-top: -2px;
+}
+
+/* Información de contacto superpuesta al iframe del mapa */
+#contact_info {
+	width: 300px;
+	float: right;
+	margin-right: 4%;
+	margin-top: -290px;
+	background: rgba(58, 111, 167, 0.7);
+	position: relative;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+}
+
+#contact_info ul {
+	list-style: none;
+}
+
+#contact_info h2 {
+	padding-left: 40px;
+	font-style: normal;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#contact_info ul li {
+	font-style: normal;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	padding: 3px 0;
+}
+
+#contact_info ul li a {
+	color: lightblue;
+	font-style: normal;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#contact_info ul li a:hover {
+	color: darkblue;
+}
+
+/* Información explicativa de cómo llegar */
+#arrive {
+	padding: 50px 10%;
+}
+
+#arrive h2, #contact_client h2 {
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	color: steelblue;
+	text-align: center;
+}
+
+#arrive p {
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	text-align: justify;
+}
+
+#contact_form {
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#dname, #demail {
+	width: 370px;
+	display: inline-block;
+}
+
+#dphone {
+	width: 270px;
+	display: inline-block;
+}
+
+#dmessage {
+	width: 660px;
+	margin: 30px auto;
+}
+
+#dmessage img {
+	vertical-align: top;
+	float: left;
+}
+
+#contact_form img {
+	display: inline-block;
+}
+
+.field {
+	display: inline-block;
+	border: 0;
+	border-bottom: 2px solid red;
+	margin-right: 10px;
+	margin-left: 5px;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	top: -20px;
+	background: rgba(0, 0, 0, 0);
+	font-size: 1em;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+.content label {
+	position: relative;
+	top: -50px;
+	font-size: 1.2em;
+	-webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.content label:hover {
+	cursor: text;
+}
+
+#message {
+	border: 0;
+	border-bottom: 2px solid red;
+	width: 600px;
+	position: relative;
+	top: -20px;
+	background: rgba(0, 0, 0, 0);
+	resize: none;
+	overflow: hidden;
+	padding-bottom: 20px;
+	font-size: 1em;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#name, #email {
+	width: 300px;
+}
+
+#lname {
+	left: -50px;
+}
+
+#lphone {
+	left: -45px;
+}
+
+#lemail {
+	left: -100px;
+}
+
+#lmessage {
+	left: -260px;
+	top: -5px;
+}
+
+input:focus, #message:focus {
+	outline: none;
+}
+
+#lname.foc {
+	font-size: 1em;
+	top: -80px;
+	left: -69px;
+}
+
+#lphone.foc {
+	font-size: 1em;
+	top: -80px;
+	left: -52px;
+}
+
+#lemail.foc {
+	font-size: 1em;
+	top: -80px;
+	left: -110px;
+}
+
+#lmessage.foc {
+	font-size: 1em;
+	top: -30px;
+	left: -275px;
+}
+
+.form_button {
+	margin: 0 0 30px auto;
+	padding: 10px;
+	color: white;
+	background: lightsteelblue;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Copperplate,"Copperplate Gothic Light";
+	border: 0;
+	-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+	-o-border-radius: 12px;
+    border-radius: 12px;
+	-webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.form_button:hover {
+	background: steelblue;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#send {
+	width: 100px;
+}
+
+#clear {
+	width: 230px;
+}
+
+#overlay {
+	text-align: center;
+    position: fixed;
+	z-index: 10000;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.6);
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#overlay::before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+}
+
+#popup {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 90%;
+	box-shadow: 0 0 50px rgba(0,0,0,0.7);
+	-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+	-o-border-radius: 12px;
+    border-radius: 12px;
+	background: #eeeeee;
+	text-align: right;
+}
+
+#title {
+	text-align: center;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	color: steelblue;
+	margin: 20px;
+}
+
+#alert_message {
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	text-align: left !important;
+	margin: 20px;
+	color: black;
+}
+
+#accept {
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	margin: 0 20px 20px 20px;
+}
+
+/* Hacer la página responsive */
+/* Cambia la información de contacto debajo del iframe en vez de superpuesto,
+además de su tamaño y centrarlo en el centro de la pantalla, el alto del iframe
+del mapa para que los móviles pequeños puedan hacer scroll no sólo en el mapa */
+@media screen and (max-width: 1130px) {
+	#googleMap {
+		height: 300px;
+	}
+	
+	#contact_info {
+		float: none;
+		position: relative;
+		width: 100%;
+		color: white;
+		margin-top: 50px !important;
+		background: rgba(255, 255, 255, 0);
+		text-align: center;
+		box-shadow: 0 0 0px;
+	}
+	
+	#contact_info h2, #contact_info ul {
+		margin: 15px auto !important;
+		width: 300px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	#contact_info ul li a {
+		color: steelblue;
+	}
+	
+	#arrive {
+		padding-top: 15px;
+	}
+}
+
+/* Adaptar el formulario para pantallas más pequeñas */
+@media screen and (max-width: 836px) {
+	#dphone {
+		width: 370px;
+	}
+	
+	#phone {
+		width: 300px;
+	}
+	
+	#lphone {
+		left: -93px;
+	}
+	
+	#lphone.foc {
+		left: -102px;
+	}
+	
+	#dmessage {
+		width: 360px;
+	}
+	
+	#message {
+		width: 300px;
+	}
+	
+	#lmessage {
+		left: -115px;
+	}
+	
+	#lmessage.foc {
+		left: -125px;
+	}
+}
+
+/* Adaptar el formulario para móviles */
+@media screen and (max-width: 370px) {
+	#dname, #dphone, #demail, #dmessage {
+		width: 90%;
+	}
+	
+	#name, #phone, #email, #message {
+		width: calc(90% - 50px);
+	}
+	
+	#lname, #lmessage {
+		text-align: left;
+		margin-left: 90px;
+	}
+	
+	#lphone, #lemail, #lmessage.foc {
+		text-align: left;
+		margin-left: 100px;
+	}
+	
+	#lname.foc, #lphone.foc, #lemail.foc {
+		text-align: left;
+	}
+	
+	#dmessage img {
+		margin-left: 15px;
+	}
+	
+	#message {
+		margin-left: -10px;
+	}
+}

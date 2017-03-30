@@ -1,0 +1,41 @@
+{
+    "roomstitle" : "CAMERE",
+    
+    "roomdescription1" : "Le nostre camere con vista Plaza Nueva e la Torre de la Vela, che appartiene ai motivi di Alhambra, si può godere di una prospettiva diversa della città. Godetevi questa esperienza per una piccola tassa.",
+    "roomsdescription2" : "L'hotel dispone anche di camere interne raccomandato per le persone che vogliono rilassarsi con la massima tranquillità.",
+    "roomsdescription3" : "Le camere sono dotate di bagno, aria condizionata, TV, telefono e cassetta di sicurezza per la pace della mente.",
+    
+    "roomservicestext" : "Nella sala sarà caratterizzato da connessione Wi-Fi gratuita, aria condizionata, servizio di TV via satellite, culle (su richiesta), cassetta di sicurezza e telefono.",
+    
+    "room1" : "DOPPIA O MATRIMONIALE",
+    "roomtext1" : "Nelle nostre camere standard potrete godere di tutti i servizi e comfort renderanno il vostro soggiorno a Granada merita.",    
+    "price" : "Da soli ",
+    
+    "room2" : "DOPPIA SUPERIOR",
+    "roomtext2" : "Godere di una magnifica vista dalla Plaza Nueva e dal centro di Granada dalle nostre camere superior.",        
+    
+    "room3" : "CAMERA A TRE LETTI",
+    "roomtext3" : "Nelle nostre camere triple si può godere la vostra vacanza con la famiglia o con gli amici nel centro di Granada.",     
+    
+    "servicestitle" : "SERVIZI IN CAMERA",
+    "service1" : "Cassetta di sicurezza",
+    "service2" : "Servizi in bagno",
+    "service3" : "Internet Wi-fi",   
+    "service4" : "Aria condizionata",
+    "service5" : "TV satellitare",
+    "service6" : "Culle (su richiesta)",
+    "service7" : "Asciugacapelli",
+    "service8" : "Telefono",
+    
+    "alt1" : "Camera doppia",
+    "alt2" : "Camera doppia superior",
+    "alt3" : "Camera a tre letti",
+    "alt4" : "Icona Cassetta di sicurezza",
+    "alt5" : "Icona Servizi in bagno",
+    "alt6" : "Icona Wifi",
+    "alt7" : "Icona Aria condizionata",
+    "alt8" : "Icona TV satellitare",
+    "alt9" : "Icona Culle",
+    "alt10" : "Icona Asciugacapelli",
+    "alt11" : "Icona Telefono"
+}

@@ -1,0 +1,21 @@
+﻿ADMINISTRADOR - ESTABLECER O MODIFICAR PRECIOS POR TEMPORADAS
+
+El administrador tendra que introducir su usuario y contraseña.
+
+El administrador accederá al panel de administración.
+
+El administrador entrará en la sección de precios del panel de administración.
+
+Aparecerá una lista con los tipos de habitaciones y los precios durante diferentes
+fragmentos de tiempo.
+
+El administrador podrá modificar los precios y los fragmentos
+de tiempo haciendo click sobre ellos y sobreescrbiendolos.
+
+El administrador tras realizar los cambios hará click en guardar para confirmar los nuevos
+precios.
+
+En este punto, el sistema borrará de la lista de reservas, la que ha sido seleccionadas
+e informará al administrador si el proceso ha tenido o no éxito.
+
+En caso de haberse producido un fallo, se volverá atrás y podrá intentarlo de nuevo.

@@ -1,0 +1,41 @@
+{
+    "roomstitle" : "ROOMS",
+    
+    "roomdescription1" : "Our rooms overlooking Plaza Nueva and the Torre de la Vela, who belongs to the grounds of the Alhambra, you can enjoy a different perspective of the city. Enjoy this experience for a small fee.",
+    "roomsdescription2" : "The hotel also has interior rooms recommended for people who want to relax with maximum tranquility.",
+    "roomsdescription3" : "The rooms also have a bathroom, air conditioning, TV, telephone and free safe for your peace of mind.",
+    
+    "roomservicestext" : "In the room will feature Wi-Fi access, air conditioning, satellite TV service, cribs (on request), safe and telephone.",
+    
+    "room1" : "DOUBLE ROOM OR TWIN",
+    "roomtext1" : "In our standard rooms you will enjoy all the facilities and amenities make your stay in Granada deserves.",    
+    "price" : "From only ",
+    
+    "room2" : "SUPERIOR DOUBLE ROOM",
+    "roomtext2" : "Enjoy a magnificent view from Plaza Nueva and the center of Granada from our superior rooms.",      
+    
+    "room3" : "TRIPLE ROOM",
+    "roomtext3" : "In our triple rooms you can enjoy your holiday with family or friends in the center of Granada.",      
+    
+    "servicestitle" : "ROOMS SERVICES",
+    "service1" : "Safe-deposit box",
+    "service2" : "Amenities in the bathroom",
+    "service3" : "Internet Wi-Fi",   
+    "service4" : "Air conditioner",
+    "service5" : "TV satellite",
+    "service6" : "Cradles (upon request)",
+    "service7" : "Hair dryer",
+    "service8" : "Phone",
+    
+    "alt1" : "Double room",
+    "alt2" : "Superior double room",
+    "alt3" : "Triple room",
+    "alt4" : "Icon safe-deposit box",
+    "alt5" : "Icon amenities",
+    "alt6" : "Icon Wifi",
+    "alt7" : "Icon air conditioner",
+    "alt8" : "Icon TV satellite",
+    "alt9" : "Icon Cradles service",
+    "alt10" : "Icon Hair dryer",
+    "alt11" : "Icon Phone"
+}

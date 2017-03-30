@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Gallery */
+
+/* Hacer la página responsive */
+/* Simplemente cambia los tamaños y oculta la tira de
+imágenes en pantallas pequeñas */
+@media screen and (max-width: 836px) {
+	.content {
+		width: 100%;
+	}
+	
+	.popup {
+		max-width: 70%;
+	}
+	
+	#all_pics {
+		display: none;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -60px;
+		margin-bottom: -40px;
+	}
+}

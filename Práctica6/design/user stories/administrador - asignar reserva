@@ -1,0 +1,37 @@
+﻿ADMINISTRADOR - ASIGNAR RESERVA
+
+El administrador tendra que introducir su usuario y contraseña.
+
+El administrador accederá al panel de administración.
+
+El administrador entrará en la seccián de reservas.
+
+El sistema mostrará una lista con todas las reservas, las cuales contendrán el código de reserva
+para poder ser identificadas entre otros campos con más información.
+
+Una vez cargada dicha vista. El administrador mirará si hay reservas sin asignar a las habitaciones,
+esto, será accesible a través de una lista en la que si no hay valor indicará que no tendrá ninguna
+asignación, y en caso de aparecer un valor númerico específico, equivaldrá al número de habitación
+asignado.
+
+En caso de que haya alguna sin asignar y el administrador así lo desee, podrá realizar la asignación
+de las habitaciones pertinentes a la reserva de la siguiente manera:
+	1.- Se pulsará sobre dicha lista, deplegando todas las habitaciones disponibles que cumplan
+	con los requisitos de la reserva, tales como fecha de entrada y salida, número de personas...
+	2.- El administrador observará si hay algún tipo de observación indicada por el cliente, y en
+	función de dicha podrá basar su elección de una forma u otra.
+	3.- El administrador, tras haber tomado una decisión, seleccionará un elemento de la lista por
+	cada una de las habitaciones que contenga la reserva, indicando así, el número de habitaciones 
+	que le ha asignado a dicha reserva.
+	
+El administrador podrá elegir si seguir asignando reservas en caso de que haya más sin asignar o no.
+	- Si decide seguir asignando volvemos al punto anterior.
+	- Si decide no seguir asignando o no hay reservas a las que asignarle habitación seguirá el proceso.
+	
+Una vez realizadas todas las decisiones de asignación de reservas, el administrador pulsará sobre
+el botón de guardar cambios para que todo lo hecho quede reflejado.
+
+En este punto, el sistema actualizará la lista de reservas e informará al administrador si el 
+proceso ha tenido o no éxito.
+
+En caso de haberse producido un fallo, se volverá atrás y podrá intentarlo de nuevo.

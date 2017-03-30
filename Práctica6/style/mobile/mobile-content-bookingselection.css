@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Booking Selection */
+
+/* Hacer la página responsive */
+@media screen and (max-width: 420px) {
+		
+	#data_booking {		
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;}
+		text-align: center;		
+	}
+
+	.input_chk img {		
+		visibility: visible;
+		margin-left: 80%;
+	}
+	
+	.table_active_container {
+		text-align: center;
+		width: 90%;		
+	}
+
+	.table_active_container table {
+		width: 90%;
+		min-width: 0px;
+	}		
+	
+	.type span {
+		float: none;
+		display: block;
+		width: fit-content;
+		margin: 10px auto;
+	}	
+	
+	.form_container {
+		margin: 0 0; 
+		width: 90%;
+	}
+	
+	.basket_container {
+		display: block;
+		position: static;
+		width: 90%;
+		padding: 0;			
+		text-align: center;
+		float: none;
+	}
+	
+	.observations {
+		margin: 20px 0 !important;
+	}
+	
+	.type_pay {
+		position: static;
+		margin-top: 10px;
+	}
+	
+	.booking_send {	
+		margin-right: 0;
+		text-align: center;
+	}
+}

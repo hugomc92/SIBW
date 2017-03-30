@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Hoja de estilos para la administración de reservas */
+
+/* Hacer la página responsive */
+@media screen and (max-width: 836px) {
+	
+	.admin_content {
+		margin: 0 20px;
+	}
+}
+
+@media screen and (max-width: 419px) {
+	
+	.table_buttons {
+		text-align: center;
+		
+	}
+	
+	.table_buttons span, .table_buttons a {
+		display: block;
+		width: 80%;
+	}
+}

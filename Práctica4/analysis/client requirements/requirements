@@ -1,0 +1,72 @@
+REQUISITOS DEL CLIENTE
+
+De lo que ya hay se modifique lo que hay, que no aparezcan nuevas promociones.
+
+Un cliente llama por teléfono, cuadrante con las habitaciones que tengo, pregunta si tengo libre de tal a tal dia, le pregunto el tipo de habitación, me dice cuánta gente viene, le recomiendo una u otra, 
+
+Se puede cambiar la oferta, pero prefiere hacerlo a mano, por teléfono, no controlado por la web.
+
+Pide la información:
+nombre y apellidos
+dirección
+número y email de contacto
+tarjeta de crédito como reserva
+
+Se va a poder pagar a través de tarjeta y sólo a través de tarjeta de crédito. Independiente del banco.
+
+No necesita acceso a sus reservas.
+
+Email de confirmación al cliente, con localizador de reserva, blablabla…
+A partir de ahí comunicación más personal, por teléfono.
+
+Sí se reservan actividades de promociones pero junto a las habitaciones.
+
+Las promociones las gestiona a mano o por teléfono.
+
+Habitaciones individuales (5), 25 dobles, algunas con cama de matrimonio o twin, y 2 suites familiares con cama doble, cama individual y sofá cama. Cuando piden habitaciones triples, metemos cama supletoria sin coste adicional.
+
+Lo máximo son 2 adultos por habitación.
+
+Hasta 12 años son niños.
+
+Confirmación de reserva automáticamente por la página.
+
+Puede ser interesante que se le ofrezca al cliente otra fecha si el hotel está disponible.
+
+Se pueden cancelar reservar dentro de un plazo y se devuelve el dinero salvo las promociones que no acepten resolución, hasta 24h. Siempre por teléfono.
+
+Se ofrece por cada habitación distintos precios. Con desayuno vale lo que la habitación más el desayuno.
+
+Una promoción por reserva.
+
+Desde la promoción, al hacer la reserva, ya está incluída la promoción.
+
+Nos pueda notificar a la hora de hacer la reserva alguna petición del cliente. Como orientación, desayuno, para detalles…
+
+Una vez se haya pagado, se genera la factura en pdf que se le envía por correo a ambas partes.
+
+Una reserva puede incluir varias habitaciones, incluso de distinto tipo.
+
+Puede haber habitaciones con sólo niños, ya según los niños.
+
+Los niños menores de 4 años no pagan, ni ocupan cama por así decirlo, se le pone cuna sin coste o cama supletoria sin coste.
+
+El administrador puede modificar la web sin código.
+
+Se puede reservar hasta todo el hotel entero. Y el tiempo todo el necesario.
+
+Se pueden modificaciones en las reservas mientras que el cliente está en la reserva.
+
+La salida antes de las 12 y la entrada antes de las 16.
+
+Lo único que se puede reservar por la web con antelación son las habitaciones, el desayuno y las promociones. El resto una vez allí.
+
+El precio va por temporadas.
+	Mas caras los sábados.
+	Mas caras en las vacaciones, en semana santa…
+
+El administrador define los precios en septiembre y para todo el año.
+
+Si define promoción con 10% de descuento -> automático.
+
+(Códigos de oferta -> no necesarios.)

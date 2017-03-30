@@ -1,0 +1,26 @@
+CLIENTE - REALIZAR RESERVA
+
+El cliente pulsa en la opción de menú Reservar, donde saldrá una ventana desplegable para introducir la fecha de 
+entrada y de salida. Selecciona en el calendario lo deseado y pulsa en buscar habitaciones.
+
+El cliente es redirigido a la sección de realizar reserva.
+
+El sistema calcula las habitaciones disponibles para esa fecha y muestra la página acorde a dicha información.
+En caso de que no haya disponibilidad para esas fecha, se le notificará al usuario para que pueda elegir otras 
+fechas si así lo desea.
+
+El cliente selecciona el número de habitaciones y el tipo de las mismas que desea.
+
+El cliente tendrá la oportunidad de 
+	- Seleccionar alguna de las ofertas que se ofrezcan. En caso de que haya entrado desde alguna promoción 
+		estará ya seleccionada aunque podra quitarla desmarcandola o seleccionar otra, puesto que sólo se 
+		permitirá una oferta por reserva
+	- Seleccionar el serivicio de desaruno 
+	- Seleccionar un número de plazas de parking que necesite.
+
+A continuación, el cliente introducirá información de caracter personal, tales como el nombre y los apellidos, 
+la direccion (compuesta de calle, código postal, ciudad y país), el email y número de contacto. Así como un 
+campo de observaciones de caracter optativo, el cual el cliente podrá rellenar si quiere notificar algún detalle al hotel.
+
+Acto seguido el cliente seguirá el proceso de pago descrito en el documento "cliente - proceso de pago" para 
+bloquear la reserva y hacerla efectiva.

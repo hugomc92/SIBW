@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Content of Rooms */
+
+/* Hacer la página responsive*/
+/* Simplemente cambia el tamaño del div del nombre y la introducción
+así como el ancho del room, para aprovechar mejor las pantallas pequeñas */
+@media screen and (max-width: 836px) {
+	.content {
+		width: 100%;
+	}
+	
+	#container {
+		width: 100%;
+	}
+	
+	#rooms_title {
+		width: 80%;
+	}
+	
+	.room {
+		width: 80%;
+		margin: 30px auto;
+	}
+	
+	#first {
+		margin-top: 230px;
+	}
+	
+	#sidebar {
+		position: relative;
+		top: -40px;
+		margin-bottom: -40px;
+	}
+}

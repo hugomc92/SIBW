@@ -1,0 +1,17 @@
+{
+    "totalscore" : " PUNTUACIÓN TOTAL ",
+    "singlescore1" : "Limpieza",
+    "singlescore2" : "Atención personal",
+    "singlescore3" : "Confort de las habitaciones",
+    "singlescore4" : "Ubicación",
+    "singlescore5" : "Instalaciones del hotel",
+    "singlescore6" : "Desayuno",
+    
+    "alt1" : "Icono Limpieza",
+    "alt2" : "Icono Atención Personal",
+    "alt3" : "Icono Confort",
+    "alt4" : "Icono Ubicación",
+    "alt5" : "Icono Instalaciones",
+    "alt6" : "Icono desayuno",
+    "alt7" : "Imagen Principal Opiniones"
+}
